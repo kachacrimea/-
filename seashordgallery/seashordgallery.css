@@ -1,0 +1,117 @@
+*{box-sizing:border-box;}
+
+body{
+	color:white;
+	font-size:30px;
+	font-family:impact;
+
+}
+p{
+ font-family: Comic Sans MS;
+}
+
+h1{
+		margin-left:20px;
+
+}
+
+TABLE {
+    background: white; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+   }
+   TD, TH {
+    background:#00FFFF; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+	font-family:time new roman;
+   }
+/*голова*/
+.header{
+   background:#00FFFF;
+  height:200px;
+   margin-bottom: 1px;
+}
+/*контент*/
+.inner-content{
+	background:#00FFFF;
+	min-height:4300px;
+	width:70%;
+	float:left;
+	margin-top:20px;
+
+}
+
+img{
+	width:897px;
+	margin-top:20px;
+}
+
+#logo{
+min-height:50px;
+width:50px;
+margin-left: 1000px;
+margin-bottom: 200px;
+}
+
+/*навигация*/
+.inner-sidebar{
+	background:#00FFFF;
+	min-height:4347px;
+	float:left;
+	margin-left:20px;
+	width:379px;
+	margin-bottom:50;
+	margin-top:20px;
+}
+
+  /*подал*/
+  .footer{
+	background-color:#00FFFF;
+	min-height:200px;
+	margin-top:4400px;
+
+	}
+
+	#a1:link {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */
+	}
+	#a2{
+		color:white;
+	font-family: Comic Sans MS;
+		font-family: impact;
+	}
+
+	#a3{
+		color:white;
+	font-family: Comic Sans MS;
+	}
+  a{
+		color:white;
+	font-family:Comic Sans MS;
+	 text-decoration: none;
+	}
+	a:hover{
+		color:white;
+	font-family: Comic Sans MS;
+	 text-decoration: none;
+	border: 5px solid white; /* Цвет фона под ссылкой */
+	 border-radius: 10px;
+
+	}
+
+
+
+
+   row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */;
